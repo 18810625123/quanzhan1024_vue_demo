@@ -1,0 +1,41 @@
+{
+  "name": "metayz_index_app",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build_dev": "vite build --mode development",
+    "build_pro": "vite build --mode production",
+    "build_test": "vite build --mode test",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@kangc/v-md-editor": "^2.3.15",
+    "axios": "^0.20.0",
+    "core-js": "^3.8.3",
+    "echarts": "^5.3.3",
+    "js-md5": "^0.7.3",
+    "md-editor-v3": "^2.2.0",
+    "qiniu-js": "^3.1.1",
+    "qrcode": "^1.5.0",
+    "uuid": "^8.3.0",
+    "vant": "^3.4.8",
+    "video.js": "^7.19.2",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.3",
+    "vuex": "^4.0.0"
+  },
+  "devDependencies": {
+    "less": "^3.12.2",
+    "less-loader": "^7.0.2",
+    "sass-loader": "^7.1.0",
+    "node-sass": "^4.9.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.5",
+    "vite-plugin-style-import": "^1.4.1"
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
